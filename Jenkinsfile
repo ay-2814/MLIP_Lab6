@@ -19,7 +19,7 @@ pipeline {
                 sudo /home/team13/miniconda3/envs/mlip_ayush init
 
                 # TODO Complete the command to run pytest
-                sudo /home/team13/miniconda3/envs/mlip_ayush run -n mlip pytest
+                sudo /home/team13/miniconda3/envs/mlip run -n mlip pytest
 
                 #echo 'pytest not runned'
                 #exit 1 #comment this line after implementing Jenkinsfile
